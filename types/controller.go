@@ -134,7 +134,7 @@ func synchronizeLookups(ticker *time.Ticker,
 			log.Fatalln(err)
 		}
 
-		log.Println("Syncing topic map")
+		//log.Println("Syncing topic map")
 		topicMap.Sync(&lookups)
 	}
 }
